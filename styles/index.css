@@ -4,7 +4,7 @@ body {
 }
 
 .start-container {
-    background-image: url('./images/sports-hero-img.jpg'); 
+    background-image: url('../images/sports-hero-img.jpg');  
     background-size: cover;
     background-position: center; 
     height: 100vh; 
@@ -148,7 +148,7 @@ li a:hover {
     min-width: 96vw;
     max-width: 96vw;
     height: 85vh;
-    background-image: url('./images/sports-wear-store-banner-bg-img-2.jpg'); 
+    background-image: url('../images/sports-wear-store-banner-bg-img-2.jpg'); 
     background-size: cover;
     background-position: center; 
     margin-left: 2vw;
@@ -179,7 +179,7 @@ li a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 20px;
-    background-image: url('./images/sports-wear-store-collection-bg-img.jpg'); 
+    background-image: url('../images/sports-wear-store-collection-bg-img.jpg'); 
     background-size: cover;
     background-position: center; 
     height: 85vh;
@@ -279,25 +279,25 @@ li a:hover {
 }
 
 .red {
-    background-image: url('./images/sports-wear-store-category-img-1.jpg'); 
+    background-image: url('../images/sports-wear-store-category-img-1.jpg'); 
     background-size: cover;
     background-position: center; 
 }
 
 .green {
-    background-image: url('./images/sports-wear-store-category-img-2.jpg'); 
+    background-image: url('../images/sports-wear-store-category-img-2.jpg'); 
     background-size: cover;
     background-position: center; 
 }
 
 .blue {
-    background-image: url('./images/sports-wear-store-category-img-3.jpg'); 
+    background-image: url('../images/sports-wear-store-category-img-3.jpg'); 
     background-size: cover;
     background-position: center; 
 }
 
 .yellow {
-    background-image: url('./images/sports-wear-store-category-img-4.jpg'); 
+    background-image: url('../images/sports-wear-store-category-img-4.jpg'); 
     background-size: cover;
     background-position: center; 
 }
@@ -307,14 +307,14 @@ li a:hover {
 }
 
 .b {
-    background-image: url('./images/sports-wear-store-more-category-img-1.jpg');
+    background-image: url('../images/sports-wear-store-more-category-img-1.jpg');
     background-size: cover;
     background-position: center; 
     height: 75vh;
 }
 
 .c {
-    background-image: url('./images/sports-wear-store-more-category-img-2.jpg');
+    background-image: url('../images/sports-wear-store-more-category-img-2.jpg');
     background-size: cover;
     background-position: center;  
     height: 75vh;
@@ -323,31 +323,31 @@ li a:hover {
 }
 
 .pa {
-    background-image: url('./images/sports-wear-store-product-img-007.jpg');
+    background-image: url('../images/sports-wear-store-product-img-007.jpg');
     background-size: cover;
     background-position: center;  
 }
 
 .pb {
-    background-image: url('./images/sports-wear-store-product-img-006.jpg');
+    background-image: url('../images/sports-wear-store-product-img-006.jpg');
     background-size: cover;
     background-position: center;  
 }
 
 .pc {
-    background-image: url('./images/sports-wear-store-product-img-009.jpg');
+    background-image: url('../images/sports-wear-store-product-img-009.jpg');
     background-size: cover;
     background-position: center;  
 }
 
 .pd {
-    background-image: url('./images/sports-wear-store-product-img-008.jpg');
+    background-image: url('../images/sports-wear-store-product-img-008.jpg');
     background-size: cover;
     background-position: center;  
 }
 
 .d {
-    background-image: url('./images/sports-wear-store-banner-img-1.jpg');
+    background-image: url('../images/sports-wear-store-banner-img-1.jpg');
     background-size: cover;
     background-position: center;
     min-width: calc(27% - 5px);
@@ -356,7 +356,7 @@ li a:hover {
 }
 
 .e {
-    background-image: url('./images/sports-wear-store-banner-img-2.jpg');
+    background-image: url('../images/sports-wear-store-banner-img-2.jpg');
     background-size: cover;
     background-position: center; 
     min-width: calc(27% - 5px);
@@ -365,7 +365,7 @@ li a:hover {
 }
 
 .f {
-    background-image: url('./images/sports-wear-store-banner-bg-img.jpg');
+    background-image: url('../images/sports-wear-store-banner-bg-img.jpg');
     background-size: cover;
     background-position: center;  
     height: 70vh;
@@ -374,63 +374,63 @@ li a:hover {
 }
 
 .ia {
-    background-image: url('./images/sports-wear-store-collection-img-1.jpg');
+    background-image: url('../images/sports-wear-store-collection-img-1.jpg');
     background-size: cover;
     background-position: center; 
     margin-left: 500px;
 }
 
 .ib {
-    background-image: url('./images/sports-wear-store-collection-img-2.jpg');
+    background-image: url('../images/sports-wear-store-collection-img-2.jpg');
     background-size: cover;
     background-position: center; 
     margin-left: 80px;
 }
 
 .sa {
-    background-image: url('./images/face-masks.jpg');
+    background-image: url('../images/face-masks.jpg');
     background-size: cover;
     background-position: center; 
 }
 
 .sb {
-    background-image: url('./images/appareal.jpg');
+    background-image: url('../images/appareal.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .sc {
-    background-image: url('./images/packsgear.jpg');
+    background-image: url('../images/packsgear.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .sd {
-    background-image: url('./images/footwear.jpg');
+    background-image: url('../images/footwear.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .se {
-    background-image: url('./images/bycicle.jpg');
+    background-image: url('../images/bycicle.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .sf {
-    background-image: url('./images/equipment.jpg');
+    background-image: url('../images/equipment.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .sg {
-    background-image: url('./images/outwear.jpg');
+    background-image: url('../images/outwear.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .sh {
-    background-image: url('./images/tents.jpg');
+    background-image: url('../images/tents.jpg');
     background-size: cover;
     background-position: center;
 }
