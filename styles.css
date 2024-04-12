@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.start-container {
+    background-image: url('./images/sports-hero-img.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+}
+
+.navigation-bar {
+    width: 98vw;
+    height: 80px;
+    color: white; 
+    padding: 15px;
+    box-sizing: border-box; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+li {
+    float: left; 
+}
+
+li a {
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 15px 18px;
+    text-decoration: none; 
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.main-section {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 98%;
+    min-height: 300px; 
+    color: white;
+    font-size: 600%;
+    /* background-color: lightgray;  */
+}
+
+.description{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25%;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto; 
+    margin-top: 20px;
+    margin-left: 5vw;
+}
+
+.grid-text{
+    width: 100%;
+    margin-left: 20px;
+    font-size:x-large;
+}
+
+.grid-item {
+    flex: 1; 
+    min-width: calc(45vw - 5px); 
+    max-width: calc(45vw - 5px); 
+    height: 90vh;
+}
+
+.gen-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: black;
+    height: 100vh;
+    width: 96vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 2vw;
+}
+
+.gen-item {
+    flex: 1;
+    min-width: calc(31% - 5px); 
+    max-width: calc(31% - 5px);
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.product-item {
+    flex: 1;
+    min-width: calc(21% - 5px);
+    max-width: calc(21% - 5px);
+    height: 260px;
+    margin-left: 30px;
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.foot-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: rgb(20, 18, 26);
+}
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.ph-item {
+    flex: 1;
+    min-width: 96vw;
+    max-width: 96vw;
+    height: 85vh;
+    background-image: url('./images/sports-wear-store-banner-bg-img-2.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    margin-left: 2vw;
+}
+
+.form-item {
+    flex: 1;
+    min-width: calc(98% - 5px);
+    max-width: calc(98% - 5px);
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 150%;
+}
+
+.foot-item {
+    flex: 1;
+    width: 100vw;
+    height: 500px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    background-image: url('./images/sports-wear-store-collection-bg-img.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    height: 85vh;
+    width: 96vw;
+    margin-left: 2vw;
+}
+
+.img-item {
+    flex: 1;
+    min-width: calc(25% - 5px);
+    max-width: calc(25% - 5px);
+    height: 60vh;
+    margin-top: 80px;
+}
+
+.sec-item {
+    flex: 1;
+    min-width: calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    height: 300px;
+    margin-top: 30px;
+}
+
+.sec-text {
+    font-size:x-large;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.red {
+    background-image: url('./images/sports-wear-store-category-img-1.jpg'); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.green {
+    background-image: url('./images/sports-wear-store-category-img-2.jpg'); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.blue {
+    background-image: url('./images/sports-wear-store-category-img-3.jpg'); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.yellow {
+    background-image: url('./images/sports-wear-store-category-img-4.jpg'); 
+    background-size: cover;
+    background-position: center; 
+}
+
+.a {
+    background-color: black;
+}
+
+.b {
+    background-image: url('./images/sports-wear-store-more-category-img-1.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 75vh;
+}
+
+.c {
+    background-image: url('./images/sports-wear-store-more-category-img-2.jpg');
+    background-size: cover;
+    background-position: center;  
+    height: 75vh;
+    margin-top: 25vh;
+    margin-left: 7.9vw;
+}
+
+.pa {
+    background-image: url('./images/sports-wear-store-product-img-007.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+
+.pb {
+    background-image: url('./images/sports-wear-store-product-img-006.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+
+.pc {
+    background-image: url('./images/sports-wear-store-product-img-009.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+
+.pd {
+    background-image: url('./images/sports-wear-store-product-img-008.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+
+.d {
+    background-image: url('./images/sports-wear-store-banner-img-1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-width: calc(27% - 5px);
+    max-width: calc(27% - 5px); 
+    height: 70vh;
+}
+
+.e {
+    background-image: url('./images/sports-wear-store-banner-img-2.jpg');
+    background-size: cover;
+    background-position: center; 
+    min-width: calc(27% - 5px);
+    max-width: calc(27% - 5px);  
+    height: 70vh;
+}
+
+.f {
+    background-image: url('./images/sports-wear-store-banner-bg-img.jpg');
+    background-size: cover;
+    background-position: center;  
+    height: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.ia {
+    background-image: url('./images/sports-wear-store-collection-img-1.jpg');
+    background-size: cover;
+    background-position: center; 
+    margin-left: 500px;
+}
+
+.ib {
+    background-image: url('./images/sports-wear-store-collection-img-2.jpg');
+    background-size: cover;
+    background-position: center; 
+    margin-left: 80px;
+}
+
+.sa {
+    background-image: url('./images/face-masks.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+.sb {
+    background-image: url('./images/appareal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sc {
+    background-image: url('./images/packsgear.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sd {
+    background-image: url('./images/footwear.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.se {
+    background-image: url('./images/bycicle.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sf {
+    background-image: url('./images/equipment.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sg {
+    background-image: url('./images/outwear.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sh {
+    background-image: url('./images/tents.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-item {
+        max-width: 100%; 
+        min-width: 100%; 
+    }
+
+    .gen-item {
+        max-width: 100%; 
+        min-width: 100%;     
+    }
+
+    .product-item {
+        max-width: 50%; 
+        min-width: 50%;     
+    }
+
+    .sec-item {
+        min-width: 48%;
+        max-width: 48%;
+    }
+}
+
+
