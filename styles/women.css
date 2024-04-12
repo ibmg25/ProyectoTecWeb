@@ -29,3 +29,85 @@ li a {
 li a:hover {
     background-color: orange;
 }
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 5vw;
+}
+
+.product-item {
+    flex: 1;
+    min-width: 20vw;
+    max-width: 20vw;
+    height: 260px;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+.product-text {
+    width: 100%;
+    margin-left: 5vw;
+    font-size:x-large;
+}
+
+.pa {
+    background-image: url('../images/sports-wear-store-product-img-007.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+
+.pb {
+    background-image: url('../images/sports-wear-store-product-img-006.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+
+.pc {
+    background-image: url('../images/sports-wear-store-product-img-009.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+
+.pd {
+    background-image: url('../images/sports-wear-store-product-img-008.jpg');
+    background-size: cover;
+    background-position: center;  
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.foot-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: rgb(20, 18, 26);
+}
+
+.form-item {
+    flex: 1;
+    min-width: calc(98% - 5px);
+    max-width: calc(98% - 5px);
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 150%;
+}
+
+.foot-item {
+    flex: 1;
+    width: 100vw;
+    height: 500px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 300px;
+}
