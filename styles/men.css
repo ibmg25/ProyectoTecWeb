@@ -54,25 +54,19 @@ li a:hover {
 }
 
 .pa {
-    background-image: url('../images/sports-wear-store-product-img-007.jpg');
+    background-image: url('../images/sports-wear-store-product-img-004-400x400.jpg');
     background-size: cover;
     background-position: center;  
 }
 
 .pb {
-    background-image: url('../images/sports-wear-store-product-img-006.jpg');
+    background-image: url('../images/sports-wear-store-product-img2-006-400x400.jpg');
     background-size: cover;
     background-position: center;  
 }
 
 .pc {
-    background-image: url('../images/sports-wear-store-product-img-009.jpg');
-    background-size: cover;
-    background-position: center;  
-}
-
-.pd {
-    background-image: url('../images/sports-wear-store-product-img-008.jpg');
+    background-image: url('../images/sports-wear-store-product-img3-005-400x400.jpg');
     background-size: cover;
     background-position: center;  
 }
