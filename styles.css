@@ -102,14 +102,16 @@ li a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 20px;
+    margin-left: 5vw;
 }
 
 .product-item {
     flex: 1;
-    min-width: calc(21% - 5px);
-    max-width: calc(21% - 5px);
+    min-width: 20vw;
+    max-width: 20vw;
     height: 260px;
-    margin-left: 30px;
+    margin-top: 5vh;
+    margin-left: 2vw;
 }
 
 .photo-container {
@@ -205,6 +207,75 @@ li a:hover {
     font-size:x-large;
     text-align: center;
     margin-top: 3%;
+}
+
+.gen-title {
+    color: white;
+    font-size: xx-large;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.gen2-title {
+    color: white;
+    font-size: xx-large;
+    margin-left: 25vw;
+    margin-top: 30vh;
+}
+
+.gen2-text {
+    color: white;
+    font-size: large;
+    margin-top: -30vh;
+    margin-left: 65vw;
+}
+
+.ph-title {
+    color: white;
+    font-size: xx-large;
+    margin-left: 10vw;
+    margin-top: -60vh;
+}
+
+.ph-text {
+    color: white;
+    font-size: large;
+    margin-top: -40vh;
+    margin-left: -15vw;
+}
+
+.img-title {
+    color: white;
+    font-size: xx-large;
+    margin-left: -85vw;
+    margin-top: 30vh;
+}
+
+.img-text {
+    color: white;
+    font-size: large;
+    margin-top: 40vh;
+    margin-left: -17vw;
+}
+
+.product-text {
+    width: 100%;
+    margin-left: 5vw;
+    font-size:x-large;
+}
+
+.men {
+    color: white;
+    font-size: xx-large;
+    margin-top: 67vh;
+    margin-left: 30vw;
+}
+
+.women {
+    color: white;
+    font-size: xx-large;
+    margin-top: -80vh;
+    margin-left: 70vw;
 }
 
 .red {
