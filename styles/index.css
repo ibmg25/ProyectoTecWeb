@@ -359,7 +359,7 @@ li a:hover {
     background-position: center;  
     height: 75vh;
     margin-top: 25vh;
-    margin-left: 7.9vw;
+    margin-left: 7.5vw;
 }
 
 .pa {
@@ -476,19 +476,128 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
+
+    .grid-container{
+        margin-left: 2vw;
+    }
+
     .grid-item {
-        max-width: 100%; 
-        min-width: 100%; 
+        max-width: 96vw; 
+        min-width: 96vw; 
+        height: 25vh;
+    }
+
+    .gen-container {
+        margin-left: 2vw;
+        height: 175vh;
+    }
+
+    .c{
+        margin-top: 15vh;
+        margin-left: 0vw;
     }
 
     .gen-item {
-        max-width: 100%; 
-        min-width: 100%;     
+        max-width: 96vw; 
+        min-width: 96vw;     
+    }
+
+    .men {
+        display: none;
+    }
+    
+    .women {
+        display: none;
+    }
+    
+    .gen-title {
+        color: white;
+        font-size: xx-large;
+        margin-top: 2vh;
+        margin-left: 5vw;
+    }
+
+    .product-container{
+        margin-left: 2vw;
     }
 
     .product-item {
-        max-width: 50%; 
-        min-width: 50%;     
+        max-width: 45vw; 
+        min-width: 45vw;     
+    }
+
+    .d {
+        background-image: url('../images/sports-wear-store-banner-img-1-225x300.jpg');
+        background-size: cover;
+        background-position: center;
+        min-width: 48vw;
+        max-width: 48vw; 
+        height: 30vh;
+    }
+    
+    .e {
+        background-image: url('../images/sports-wear-store-banner-img-2-225x300.jpg');
+        background-size: cover;
+        background-position: center; 
+        min-width: 48vw;
+        max-width: 48vw; 
+        height: 30vh;
+    }
+    
+    .f {
+        background-image: url('../images/sports-wear-store-banner-bg-img.jpg');
+        background-size: cover;
+        background-position: center;  
+        height: 60vh;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+
+    .gen2-title {
+        color: white;
+        font-size: xx-large;
+        margin-left: 25vw;
+        margin-top: -5vh;
+    }
+    
+    .gen2-text {
+        color: white;
+        font-size: large;
+        margin-top: -5vh;
+        margin-left: 20vw;
+    }
+
+    .ph-item{
+        height: 50vh;
+        margin-top: -5vh;
+    }
+
+    .ph-title {
+        margin-left: 25vw;
+        margin-top: -40vh;
+    }
+    
+    .ph-text {
+        margin-top: -25vh;
+        margin-left: 15vw;
+    }
+
+    .img-container{
+        height: 60vh;
+    }
+
+    .img-item{
+        height: 40vh;
+    }
+
+    .img-title {
+        margin-left: -85vw;
+        margin-top: 30vh;
+    }
+    
+    .img-text {
+        margin-top: 40vh;
+        margin-left: -17vw;
     }
 
     .sec-item {
