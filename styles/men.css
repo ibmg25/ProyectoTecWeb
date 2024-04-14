@@ -170,7 +170,7 @@ li a:hover {
     }
 
     .foot-container{
-        height: 140vh;
+        height: 160vh;
     }
 
     .fp{
@@ -191,12 +191,12 @@ li a:hover {
     }
 
     .f2{
-        margin-top: -10vh;
+        margin-top: 0vh;
         margin-left: 10vw;
     }
 
     .f3{
-        margin-top: -10vh;
+        margin-top: 0vh;
         margin-left: 10vw;
     }
 }
