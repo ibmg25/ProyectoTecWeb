@@ -146,3 +146,47 @@ li a:hover {
 .f3 {
     color: white;
 }
+
+@media screen and (max-width: 600px) {
+    .inpt{
+        display: flex;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .btn{
+        margin-top: 1vh;
+        width: 60vw;
+    }
+
+    .foot-container{
+        height: 140vh;
+    }
+
+    .fp{
+        margin-left: -20vw;
+    }
+
+    .foot{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        min-width: 80vw;
+        max-width: 80vw;
+    }
+
+    .f1{
+        margin-top: 0vh;
+        margin-left: 10vw;
+    }
+
+    .f2{
+        margin-top: -10vh;
+        margin-left: 10vw;
+    }
+
+    .f3{
+        margin-top: -10vh;
+        margin-left: 10vw;
+    }
+}

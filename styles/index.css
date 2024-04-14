@@ -588,21 +588,83 @@ li a:hover {
 
     .img-item{
         height: 40vh;
+        margin-left: 0vw;
+        min-width: 48vw;
+        max-width: 48vw; 
+        margin-top: 20vh;
     }
 
     .img-title {
-        margin-left: -85vw;
-        margin-top: 30vh;
+        margin-left: -75vw;
+        margin-top: 1vh;
+        color: black;
     }
     
     .img-text {
-        margin-top: 40vh;
-        margin-left: -17vw;
+        margin-top: -50vh;
+        margin-left: 25vw;
+        color: black;
+    }
+
+    .ia {
+        background-image: url('../images/sports-wear-store-collection-img-1-225x300.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    .ib {
+        background-image: url('../images/sports-wear-store-collection-img-2-225x300.jpg');
+        background-size: cover;
+        background-position: center; 
     }
 
     .sec-item {
-        min-width: 48%;
-        max-width: 48%;
+        margin-left: 3vw;
+        min-width: 45vw;
+        max-width: 45vw;
+        height: 15vh;
+    }
+
+    .inpt{
+        display: flex;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .btn{
+        margin-top: 1vh;
+        width: 60vw;
+    }
+
+    .foot-container{
+        height: 140vh;
+    }
+
+    .fp{
+        margin-left: -20vw;
+    }
+
+    .foot{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        min-width: 80vw;
+        max-width: 80vw;
+    }
+
+    .f1{
+        margin-top: 0vh;
+        margin-left: 10vw;
+    }
+
+    .f2{
+        margin-top: -10vh;
+        margin-left: 10vw;
+    }
+
+    .f3{
+        margin-top: -10vh;
+        margin-left: 10vw;
     }
 }
 
