@@ -148,6 +148,16 @@ li a:hover {
 }
 
 @media screen and (max-width: 600px) {
+
+    .product-container{
+        margin-left: 2vw;
+    }
+
+    .product-item {
+        max-width: 45vw; 
+        min-width: 45vw;     
+    }
+
     .inpt{
         display: flex;
         width: 80vw;
